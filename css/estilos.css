@@ -18,16 +18,17 @@ body {
 
 /* ----- ----- HEADER ----- ----- */
 header {
-  background: url("../img/bg.jpg"), #49A3D6;
+  background: url("../img/1.jpg"), #c210b9;
   background-repeat: no-repeat;
   background-position: center;
-  max-height: 600px; }
+  max-height: 700px;
+}
   header .menu {
     margin: 40px 0;
     text-align: right; }
     header .menu a {
       margin: 0 20px;
-      color: #fff;
+      color: rgb(0, 0, 0);
       padding-bottom: 9px;
       font-size: 1em;
       display: inline-block;
@@ -81,13 +82,13 @@ header {
       margin-bottom: 40px;
       line-height: 34px;
       font-weight: 300;
-      color: #dd820d;
+      color: #a20ddd;
       text-align: center; }
     .main .acerca-de .texto .bold {
       color: #3895ea;
       text-decoration: underline; }
 .main .trabajos {
-  background: #f2f2f2;
+  background: #dd12e450;
   padding: 60px 0; }
   .main .trabajos .contenedor {
     overflow: hidden; }
@@ -108,20 +109,20 @@ header {
       margin-bottom: 40px; }
       .main .trabajos .contenedor-trabajos .trabajo .thumb {
         width: 100%;
-        margin-bottom: 10px; }
+        margin-bottom: 5px; }
         .main .trabajos .contenedor-trabajos .trabajo .thumb img {
           vertical-align: top;
           width: 100%;
-          border-radius: 3px; }
+          border-radius: 100px; }
       .main .trabajos .contenedor-trabajos .trabajo .descripcion {
         text-align: center; }
         .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
           font-weight: 700;
-          color: #3895ea;
+          color: #1205c5;
           margin-bottom: 10px; }
         .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
           font-size: 14px;
-          color: #636363; }
+          color: #000000; }
 
 /* ----- ----- FOOTER ----- ----- */
 footer .contacto {
@@ -131,7 +132,7 @@ footer .contacto {
     line-height: 34px;
     margin-bottom: 60px;
     font-weight: 300;
-    color: #3895ea;
+    color:  #810d81;
     text-align: center; }
   footer .contacto .formulario {
     display: flex;
@@ -140,11 +141,11 @@ footer .contacto {
     footer .contacto .formulario input[type="text"],
     footer .contacto .formulario input[type="email"],
     footer .contacto .formulario textarea {
-      border: 2px solid #cecece;
+      border: 2px solid #b700ff;
       border-radius: 5px;
       padding: 15px 20px;
       font-size: 20px;
-      color: #a4a4a4; }
+      color: #000000; }
     footer .contacto .formulario input[type="text"],
     footer .contacto .formulario input[type="email"] {
       width: 49%;
@@ -158,15 +159,15 @@ footer .contacto {
       max-height: 300px; }
     footer .contacto .formulario .boton {
       margin: auto;
-      background: #3895ea;
+      background: #741c4c;
       color: #fff;
       border: none;
       border-radius: 3px;
       padding: 15px 40px; }
       footer .contacto .formulario .boton:hover {
-        background: #387bea; }
+        background: #a31273; }
 footer .redes-sociales {
-  background: #1e2b38;
+  background: #611441;
   padding: 60px 0; }
   footer .redes-sociales .contenedor {
     display: flex;
